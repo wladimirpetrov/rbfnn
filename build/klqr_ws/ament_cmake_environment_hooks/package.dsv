@@ -1,0 +1,4 @@
+source;share/klqr_ws/local_setup.bash
+source;share/klqr_ws/local_setup.dsv
+source;share/klqr_ws/local_setup.sh
+source;share/klqr_ws/local_setup.zsh

@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target printing_node[0m
+[35m[1mScanning dependencies of target klqr_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/printing_node.dir/src/printing_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/klqr_node.dir/src/klqr_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable printing_node[0m
+[100%] [32m[1mLinking CXX executable klqr_node[0m
+[100%] Built target printing_node
+[100%] Built target klqr_node
+-- Install configuration: ""
+-- Installing: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/klqr_node
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/klqr_node" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/printing_node
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/printing_node" to ""
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/package_run_dependencies/klqr_ws
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/parent_prefix_path/klqr_ws
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/ament_prefix_path.sh
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/ament_prefix_path.dsv
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/path.sh
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/path.dsv
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.bash
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.sh
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.zsh
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.dsv
+-- Installing: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.dsv
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/packages/klqr_ws
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/cmake/klqr_wsConfig.cmake
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/cmake/klqr_wsConfig-version.cmake
+-- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.xml

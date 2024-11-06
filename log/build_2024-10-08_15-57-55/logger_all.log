@@ -1,0 +1,110 @@
+[0.220s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4d9acfd820>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4d9acfd820>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4d9acfde20>)
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.261s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'klqr_ws'
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/vpetrov/dev/inv_pend_test/klqr_ws/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vpetrov/dev/crazyflie_opt/test_ws/install
+[0.293s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 268 installed packages in /opt/ros/foxy
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'cmake_target' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'cmake_clean_cache' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'cmake_clean_first' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'cmake_force_configure' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'ament_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'catkin_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'klqr_ws' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.344s] DEBUG:colcon.colcon_core.verb:Building package 'klqr_ws' with the following arguments: {'ament_cmake_args': None, 'build_base': '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws', 'merge_install': False, 'path': '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws', 'symlink_install': False, 'test_result_base': None}
+[0.344s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.345s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.345s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws' with build type 'ament_cmake'
+[0.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws'
+[0.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws -DCMAKE_INSTALL_PREFIX=/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws
+[1.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws' returned '0': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws -DCMAKE_INSTALL_PREFIX=/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws
+[1.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake --build /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws -- -j12 -l12
+[5.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws' returned '0': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake --build /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws -- -j12 -l12
+[5.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake --install /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws
+[5.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(klqr_ws)
+[5.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws' returned '0': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake --install /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws
+[5.514s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws' for CMake module files
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws' for CMake config files
+[5.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('klqr_ws', 'cmake_prefix_path')
+[5.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/hook/cmake_prefix_path.ps1'
+[5.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/hook/cmake_prefix_path.dsv'
+[5.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/hook/cmake_prefix_path.sh'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/bin'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/pkgconfig/klqr_ws.pc'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/python3.8/site-packages'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/bin'
+[5.519s] INFO:colcon.colcon_core.shell:Creating package script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.ps1'
+[5.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.dsv'
+[5.519s] INFO:colcon.colcon_core.shell:Creating package script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.sh'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.bash'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.zsh'
+[5.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/colcon-core/packages/klqr_ws)
+[5.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(klqr_ws)
+[5.547s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws' for CMake module files
+[5.548s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws' for CMake config files
+[5.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('klqr_ws', 'cmake_prefix_path')
+[5.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/hook/cmake_prefix_path.ps1'
+[5.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/hook/cmake_prefix_path.dsv'
+[5.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/hook/cmake_prefix_path.sh'
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib'
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/bin'
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/pkgconfig/klqr_ws.pc'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/python3.8/site-packages'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/bin'
+[5.550s] INFO:colcon.colcon_core.shell:Creating package script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.ps1'
+[5.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.dsv'
+[5.551s] INFO:colcon.colcon_core.shell:Creating package script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.sh'
+[5.552s] INFO:colcon.colcon_core.shell:Creating package script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.bash'
+[5.552s] INFO:colcon.colcon_core.shell:Creating package script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.zsh'
+[5.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/colcon-core/packages/klqr_ws)
+[5.552s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.553s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.553s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.553s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.565s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.565s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.565s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.577s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/local_setup.ps1'
+[5.578s] INFO:colcon.colcon_core.shell:Creating prefix util module '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/_local_setup_util_ps1.py'
+[5.579s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/setup.ps1'
+[5.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/local_setup.sh'
+[5.581s] INFO:colcon.colcon_core.shell:Creating prefix util module '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/_local_setup_util_sh.py'
+[5.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/setup.sh'
+[5.582s] INFO:colcon.colcon_core.shell:Creating prefix script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/local_setup.bash'
+[5.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/setup.bash'
+[5.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/local_setup.zsh'
+[5.584s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/setup.zsh'

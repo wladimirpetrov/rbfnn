@@ -1,0 +1,17 @@
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/klqr_node
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/printing_node
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/package_run_dependencies/klqr_ws
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/parent_prefix_path/klqr_ws
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/ament_prefix_path.sh
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/ament_prefix_path.dsv
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/path.sh
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/path.dsv
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.bash
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.sh
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.zsh
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.dsv
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.dsv
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/packages/klqr_ws
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/cmake/klqr_wsConfig.cmake
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/cmake/klqr_wsConfig-version.cmake
+/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.xml

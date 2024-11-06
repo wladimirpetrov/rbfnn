@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2025.0/lib/cmake /usr/bin/cmake --build /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target printing_node[0m
+[0.072s] [ 50%] Built target klqr_node
+[0.080s] [ 75%] [32mBuilding CXX object CMakeFiles/printing_node.dir/src/printing_node.cpp.o[0m
+[4.362s] [100%] [32m[1mLinking CXX executable printing_node[0m
+[4.574s] [100%] Built target printing_node
+[4.584s] Invoked command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws' returned '0': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2025.0/lib/cmake /usr/bin/cmake --build /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws -- -j12 -l12
+[4.619s] Invoking command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2025.0/lib/cmake /usr/bin/cmake --install /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws
+[4.627s] -- Install configuration: ""
+[4.627s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/klqr_node
+[4.628s] -- Installing: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/printing_node
+[4.630s] -- Set runtime path of "/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/lib/klqr_ws/printing_node" to ""
+[4.630s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/package_run_dependencies/klqr_ws
+[4.630s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/parent_prefix_path/klqr_ws
+[4.630s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/ament_prefix_path.sh
+[4.630s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/ament_prefix_path.dsv
+[4.630s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/path.sh
+[4.630s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/environment/path.dsv
+[4.630s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.bash
+[4.630s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.sh
+[4.631s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.zsh
+[4.631s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/local_setup.dsv
+[4.631s] -- Installing: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.dsv
+[4.631s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/ament_index/resource_index/packages/klqr_ws
+[4.631s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/cmake/klqr_wsConfig.cmake
+[4.631s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/cmake/klqr_wsConfig-version.cmake
+[4.631s] -- Up-to-date: /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws/share/klqr_ws/package.xml
+[4.633s] Invoked command in '/local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws' returned '0': CMAKE_PREFIX_PATH=/home/vpetrov/dev/inv_pend_test/klqr_ws/install/klqr_ws:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2025.0/lib/cmake /usr/bin/cmake --install /local/vol00/home/vpetrov/dev/inv_pend_test/klqr_ws/build/klqr_ws
